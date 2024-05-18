@@ -71,7 +71,7 @@ body {
 
 .end-info {
   color: gray;
-  font-size: 2px;
+  font-size: 10px;
   padding-top: 10px;
 }
 
@@ -83,13 +83,13 @@ a {
 .thank {
   text-align: left;
   color: gray;
-  font-size: 2px;
+  font-size: 10px;
 }
 
 .end {
   text-align: left;
   color: gray;
-  font-size: 2px;
+  font-size: 10px;
   padding-top: 70px;
 }
 
