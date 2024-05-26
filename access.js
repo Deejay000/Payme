@@ -15,11 +15,11 @@ const firstInfo = localStorage.getItem('first-info');
   document.getElementById('six-info').textContent = sixInfo;
 
 
-document.getElementById('string_inner_container').innerHTML = create_random_string(31)
+document.getElementById('string_inner_container').innerHTML = create_random_string(25)
 
 function create_random_string(string_lenght) {
   var random_string = '';
-  var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'
+  var characters = '1234567890'
   for(var i, i = 0; i < string_lenght; i++){
     random_string += characters.charAt(Math.floor(Math.random() * characters.length))
   }
