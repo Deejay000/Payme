@@ -65,6 +65,10 @@ body {
   font-size: 10px;
 }
 
+.digit {
+  margin-left: -5px;
+}
+
 .line {
   color: #D5D5D7;
 }
