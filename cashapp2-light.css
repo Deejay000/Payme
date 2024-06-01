@@ -78,6 +78,10 @@ body {
   font-size: 26px;
 }
 
+.digit {
+  margin-left: -5px;
+}
+
 .today {
   color: gray;
 }
