@@ -79,7 +79,7 @@ body {
 .amount {
   padding: 160px 0px 10px 0px;
   font-weight: bolder;
-  font-size: 29px;
+  font-size: 35px;
 }
 
 .digit {
@@ -156,7 +156,7 @@ body {
   padding: 160px 0px 10px 0px;
   font-weight: bolder;
   color:  #8B8484;
-  font-size: 33px;
+  font-size: 35px;
 }
 
 .today2 {
@@ -215,7 +215,7 @@ body {
   padding: 160px 0px 10px 0px;
   font-weight: bolder;
   color: lightgray;
-  font-size: 33px;
+  font-size: 35px;
 }
 
 
