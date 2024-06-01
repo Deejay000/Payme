@@ -96,8 +96,8 @@ body {
 
 .web {
   width: 280px;
-  background-color: white;
-  color: gray;
+  background-color: black;
+  color: white;
   font-weight: bolder;
   border-radius: 50px;
   border: 1px solid gray;
