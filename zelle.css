@@ -105,23 +105,28 @@ img {
   .icon {
     background-color: #858585;
     color: white;
-    width: 40px;
-    padding: 15px;
+    width: 17px;
+    padding: 17px 23px;
     border-radius: 60px;
     position: relative;
     font-weight: bolder;
     font-size: 18px;
   }
+
+.digit {
+  margin-left: -5px;
+}
+  
   
   .z {
-    padding: 3px;
+    padding: 4px;
     background-color: white;
     border-radius: 60px;
     color: #B327FF;
     font-weight: bolder;
     font-size: 12px;
     position: absolute;
-    right: 177px;
+    right: 169px;
     top: 370px;
   }
   
