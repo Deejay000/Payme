@@ -28,6 +28,10 @@ body {
   right: 0px;
 }
 
+.digit {
+  margin-left: -3px;
+}
+
 .arrow {
   font-size: 23px;
 }
