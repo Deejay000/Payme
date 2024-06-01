@@ -51,6 +51,9 @@ img {
 .amount {
  
 }
+.digit {
+  margin-left: -3px;
+}
 
 .st {
   font-size: 14px;
