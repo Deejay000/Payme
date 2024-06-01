@@ -61,6 +61,11 @@ body {
   font-size: 12px;
 }
 
+.result-cover {
+  color: #063682;
+  font-size: 10px;
+}
+
 .result {
   color: #063682;
   font-size: 10px;
