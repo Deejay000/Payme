@@ -21,6 +21,23 @@ body {
   border: 2px solid black;
 }
 
+.top-first {
+  display: flex;
+  flex: 1 1;
+  justify-content: space-between;
+  margin-bottom: 70px;
+  font-weight: bolder;
+}
+
+.bi-chevron-left {
+  font-size: 28px;
+}
+
+.bi-three-dots{
+  font-size: 35px;
+}
+
+
 .receipt-body {
   width: 400px;
   margin-top: 40px;
