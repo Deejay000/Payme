@@ -47,6 +47,10 @@ body {
   font-weight: bolder;
 }
 
+.digit {
+  margin-left: -5px;
+}
+
 .words {
   font-size: 12px;
   margin: 15px 0px;
