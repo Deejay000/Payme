@@ -12,6 +12,16 @@ body {
   font-weight: bolder;
 }
 
+.bi-chevron-left {
+  font-size: 28px;
+  color: white;
+}
+
+.bi-three-dots{
+  font-size: 35px;
+  color: white;
+}
+
 .dm {
   margin-top: 50px;
   padding: 15px 10px;
