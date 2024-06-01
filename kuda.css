@@ -76,6 +76,7 @@ body {
 .line {
   color: lightgray;
   font-size: 15px;
+  letter-spacing: 3px;
 }
 
 .grid {
