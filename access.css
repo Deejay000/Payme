@@ -51,6 +51,10 @@ body {
   font-weight: bolder;
 }
 
+.sst {
+  margin-left: 10px;
+}
+
 .grid {
   display: grid;
   grid-template-columns: 150px 1fr;
