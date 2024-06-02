@@ -17,9 +17,13 @@ body {
 }
 
 .top {
-  display: grid;
-  grid-template-columns: 150px 150px;
-  column-gap: 80px;
+  display: flex;
+  flex: 1 1;
+  justify-content: space-around;
+}
+
+.access-img {
+  margin-top: 15px;
 }
 
 .access2 {
