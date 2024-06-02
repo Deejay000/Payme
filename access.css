@@ -18,7 +18,7 @@ body {
 
 .top {
   display: flex;
-  flex: 1 1;
+  flex: 110px 110px;
   justify-content: space-around;
   column-gap: 70px;
 }
