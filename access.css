@@ -20,7 +20,7 @@ body {
   display: flex;
   flex: 1 1;
   justify-content: space-around;
-  column-gap: 50px;
+  column-gap: 70px;
 }
 
 .access-img {
