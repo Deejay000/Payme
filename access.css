@@ -38,14 +38,12 @@ body {
 .transaction {
   color: #0411A6;
   font-weight: bolder;
-  padding-bottom: 10px;
 }
 
 .g-top {
   font-size: 8px;
   color: gray;
   padding-top: 10px;
-  padding-bottom: 30px;
 }
 
 .accessmore {
