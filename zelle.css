@@ -36,6 +36,10 @@ img {
   color: gray;
 }
 
+.digit {
+  margin-right: -2px;
+}
+
 .name {
   font-weight: bolder;
   font-size: 18px;
