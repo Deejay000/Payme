@@ -26,8 +26,21 @@ body {
   right: 0px;
   background-color:  #1E2892;
   color: white;
-  padding: 5px;
+  padding: 15px;
 }
+
+.fa-bars{
+  font-size: 24px;
+}
+
+.fa-paypal{
+  font-size: 24px;
+}
+
+.fa-bell{
+  font-size: 24px;
+}
+
 
 .menu {
   padding: 10px 30px;
