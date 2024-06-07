@@ -42,7 +42,7 @@ img {
 }
 
 .amount-cover {
-  color: #3EA75A;
+  color: #2FB282;
   font-weight: bolder;
   font-size: 24px;
   margin-top: 30px;
@@ -136,7 +136,8 @@ img {
 }
 
 .ng {
-  color: #3EA75A;
+  color: #2FB282;
+  font-weight: bold;
 }
 
 .last {
