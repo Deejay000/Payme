@@ -20,7 +20,6 @@ body {
   flex: 70px 70px 70px;
   justify-content: space-around;
   align-items: center;
-  column-gap: 60px;
   position: absolute;
   top: 0px;
   left: 0px;
