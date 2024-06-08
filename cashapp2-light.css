@@ -51,7 +51,7 @@ body {
 }
 
 .circle {
-  padding: 20px;
+  padding: 20px 22px;
   border-radius: 60px;
   background-color: #E803FF;
   color: white;
