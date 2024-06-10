@@ -28,3 +28,26 @@ if(current_hour >= 12){
 
 document.getElementById('time').textContent = `${current_hour}:${current_minute} ${am_pm}`
 
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    // Array of predefined colors
+    const colors = ['darkpink', '#33FF57', 'blue', '#FF33A1'];
+
+    // Function to get a random color from the array
+    function getRandomColor() {
+        const randomIndex = Math.floor(Math.random() * colors.length);
+        return colors[randomIndex];
+    }
+
+    // Get all elements with the class color-box
+    const colorBoxes = document.querySelectorAll('.circle');
+
+    // Set the background color of each color-box to a random color from the array
+    colorBoxes.forEach(box => {
+        box.style.backgroundColor = getRandomColor();
+    });
+});
+
+
