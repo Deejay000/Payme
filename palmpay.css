@@ -47,7 +47,7 @@ img {
 .amount-cover {
   color: #6F09EC;
   font-weight: bolder;
-  font-size: 24px;
+  font-size: 26px;
   margin-top: 10px;
 }
 
@@ -60,11 +60,11 @@ img {
 }
 
 .st {
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .date {
-  font-size: 11px;
+  font-size: 12px;
   padding: 5px;
   color: gray;
 }
