@@ -33,73 +33,80 @@ function create_random_string(string_lenght) {
 
 
 
+months = ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"];
 
-months = ["01","02","03","04",'05',"06","07","08","09","10","11","12"]
+ date_data = new Date();
 
-//date = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31"]
+ current_date = date_data.getDate();
+document.getElementById('date').textContent = `${current_date}`;
 
-date_data = new Date()
+current_month = date_data.getMonth();
+document.getElementById('month').textContent = `${months[current_month]}`;
 
-current_date = date_data.getDate()
+ current_year = date_data.getFullYear();
+document.getElementById('year').textContent = `${current_year}`;
 
+current_hour = date_data.getHours();
+ current_minute = date_data.getMinutes();
 
-document.getElementById('date').textContent = `${current_date}`
+am_pm = '';
 
-current_month = date_data.getMonth()
-
-document.getElementById('month').textContent = `${months[current_month]}`
-
-current_year = date_data.getFullYear()
-
-document.getElementById('year').textContent = `${current_year}`
-
-
-current_hour = date_data.getHours()
-current_minute = date_data.getMinutes()
-
-am_pm = ''
-
-if(current_hour >= 12){
-  am_pm = 'PM'
-}else {
-  am_pm = 'AM'
+if (current_hour >= 12) {
+  am_pm = 'PM';
+} else {
+  am_pm = 'AM';
 }
 
-document.getElementById('time').textContent = `${current_hour}:${current_minute} ${am_pm}`
+// Convert hour to 12-hour format
+current_hour = current_hour % 12;
+if (current_hour === 0) {
+  current_hour = 12;
+}
+
+// Ensure minutes are two digits
+current_minute = current_minute < 10 ? '0' + current_minute : current_minute;
+
+document.getElementById('time').textContent = `${current_hour}:${current_minute} ${am_pm}`;
+
+
+
 
 
 //SECOND CODE
 
-monthss = ['01','02','03','04','05','06','07','08','09','10','11','12'];
+monthss = ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"];
 
-//datee = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31"]
+ date_data = new Date();
 
-date_data = new Date();
-
-current_date = date_data.getDate();
-
-
+ current_date = date_data.getDate();
 document.getElementById('datee').textContent = `${current_date}`;
 
 current_month = date_data.getMonth();
+document.getElementById('monthh').textContent = `${months[current_month]}`;
 
-document.getElementById('monthh').textContent = `${monthss[current_month]}`;
-
-current_year = date_data.getFullYear();
-
+ current_year = date_data.getFullYear();
 document.getElementById('yearr').textContent = `${current_year}`;
 
-
 current_hour = date_data.getHours();
-current_minute = date_data.getMinutes();
+ current_minute = date_data.getMinutes();
 
-am_pm = ''
+am_pm = '';
 
-if(current_hour >= 12){
-  am_pm = 'PM'
-}else {
-  am_pm = 'AM'
-};
+if (current_hour >= 12) {
+  am_pm = 'PM';
+} else {
+  am_pm = 'AM';
+}
 
-document.getElementById('timee').textContent = `${current_hour}:${current_minute} ${am_pm}`;
+// Convert hour to 12-hour format
+current_hour = current_hour % 12;
+if (current_hour === 0) {
+  current_hour = 12;
+}
+
+// Ensure minutes are two digits
+current_minute = current_minute < 10 ? '0' + current_minute : current_minute;
+
+document.getElementById('time').textContent = `${current_hour}:${current_minute} ${am_pm}`;
+
 
