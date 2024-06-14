@@ -107,6 +107,6 @@ if (current_hour === 0) {
 // Ensure minutes are two digits
 current_minute = current_minute < 10 ? '0' + current_minute : current_minute;
 
-document.getElementById('time').textContent = `${current_hour}:${current_minute} ${am_pm}`;
+document.getElementById('timee').textContent = `${current_hour}:${current_minute} ${am_pm}`;
 
 
