@@ -31,6 +31,11 @@ days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
 
  date_data = new Date();
 
+current_day = date_data.getDay()
+
+
+document.getElementById('day').textContent = `${days[current_day]}`;
+
  current_date = date_data.getDate();
 document.getElementById('date').textContent = `${current_date}`;
 
