@@ -65,3 +65,6 @@ if(current_hour >= 12){
 }
 
 document.getElementById('time').textContent = `${current_hour}:${current_minute} ${am_pm}`
+
+
+
