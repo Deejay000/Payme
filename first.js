@@ -40,6 +40,26 @@ current_minute = current_minute < 10 ? '0' + current_minute : current_minute;
 document.getElementById('time').textContent = `${current_hour}:${current_minute} ${am_pm}`;
 
 
+date_data = new Date()
+
+
+current_month = date_data.getMonth()
+current_date = date_data.getDate()
+current_hour = date_data.getHours()
+current_minute = date_data.getMinutes()
+am_pm = ''
+
+if(current_hour >= 12){
+  am_pm = 'PM'
+}else {
+  am_pm = 'AM'
+}
+
+document.getElementById('month_date_time').textContent = `${months[current_month]} ${current_date}, ${current_hour}:${current_minute} ${am_pm}`
+
+
+current_year = date_data.getFullYear()
+document.getElementById('year').textContent = `${current_year}`
 
 
 
