@@ -26,43 +26,43 @@ const firstInfo = localStorage.getItem('first-info');
 
 months = ["January","February","March","April","May","June","July","August","September","October","November","December"]
 
-days = ["Sunday","Momday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
-
-date_data = new Date()
+days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
 
 
-current_day = date_data.getDay()
+ date_data = new Date();
 
+ current_date = date_data.getDate();
+document.getElementById('date').textContent = `${current_date}`;
 
-document.getElementById('day').textContent = `${days[current_day]}`
+current_month = date_data.getMonth();
+document.getElementById('month').textContent = `${months[current_month]}`;
 
-current_date = date_data.getDate()
+ current_year = date_data.getFullYear();
+document.getElementById('year').textContent = `${current_year}`;
 
+current_hour = date_data.getHours();
+ current_minute = date_data.getMinutes();
 
-document.getElementById('date').textContent = `${current_date}`
+am_pm = '';
 
-
-current_month = date_data.getMonth()
-
-document.getElementById('month').textContent = `${months[current_month]}`
-
-current_year = date_data.getFullYear()
-
-document.getElementById('year').textContent = `${current_year}`
-
-
-current_hour = date_data.getHours()
-current_minute = date_data.getMinutes()
-
-am_pm = ''
-
-if(current_hour >= 12){
-  am_pm = 'PM'
-}else {
-  am_pm = 'AM'
+if (current_hour >= 12) {
+  am_pm = 'PM';
+} else {
+  am_pm = 'AM';
 }
 
-document.getElementById('time').textContent = `${current_hour}:${current_minute} ${am_pm}`
+// Convert hour to 12-hour format
+current_hour = current_hour % 12;
+if (current_hour === 0) {
+  current_hour = 12;
+}
+
+// Ensure minutes are two digits
+current_minute = current_minute < 10 ? '0' + current_minute : current_minute;
+
+document.getElementById('time').textContent = `${current_hour}:${current_minute} ${am_pm}`;
+
+
 
 
 //SECOND CODE
