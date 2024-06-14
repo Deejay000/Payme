@@ -50,11 +50,6 @@ months = ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"
 
  date_data = new Date();
 
-current_day = date_data.getDay();
-
-
-document.getElementById('day').textContent = `${dayss[current_day]}`;
-
 
  current_date = date_data.getDate();
 document.getElementById('date').textContent = `${current_date}`;
