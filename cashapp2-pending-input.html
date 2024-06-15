@@ -20,23 +20,14 @@
 </center>
 <form class="input-container" id="form">
   <center>
-    <div class="grid">
-      <div class="co">
-        <a href="cashapp2-input.html">
-          Completed
-        </a>
-      </div>
-      <div class="co">
-        <a href="cashapp2-pending-input.html">
-          Pending 
-        </a>
-      </div>
-      <div class="co">
-        <a href="cashapp2-failed-input.html">
-          Failed 
-        </a>
-      </div>
-    </div>
+      <center>
+      <select onchange="redirectToPage(this)">
+        <option value="">Select Receipt Type</option>
+        <option value="cashapp2-input.html">COMPLETED</option>
+        <option value="cashapp2-pending-input.html">PENDING</option>
+        <option value="cashapp2-failed-input.html">FAILED</option>
+      </select>
+    </center>
     <div class="type">
       TYPE: PENDING 
     </div>
@@ -64,5 +55,13 @@
   </center>
 </form>
 <script src="cashapp2-pending-input.js"></script>
+  <script>
+     function redirectToPage(selectElement) {
+          var selectedValue = selectElement.value;
+            if (selectedValue) {
+                window.location.href = selectedValue;
+            }
+      }
+  </script>
 </body>
 </html>
