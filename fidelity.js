@@ -28,6 +28,11 @@ const firstInfo = localStorage.getItem('first-info');
   document.getElementById('five-info').textContent = fiveInfo;
   document.getElementById('six-info').textContent = sixInfo;
 
+const amounts = document.querySelectorAll('.amount');
+amounts.forEach((num) => {
+  const formattedNum = num.textContent.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  num.textContent = formattedNum;
+});
 
 
 
