@@ -9,6 +9,7 @@ body {
   margin-top: 70px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 40px; 
   border: 2px solid lightgray;
   background-image: url("images/first-background.png");
   background-size: cover;
