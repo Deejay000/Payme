@@ -31,6 +31,13 @@ const firstInfo = localStorage.getItem('first-info');
   document.getElementById('seven-info').textContent = sevenInfo;
 
 
+const amounts = document.querySelectorAll('.amount');
+amounts.forEach((num) => {
+  const formattedNum = num.textContent.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  num.textContent = formattedNum;
+});
+
+
 
 months = ["01","02","03","04",'05',"06","07","08","09","10","11","12"]
 
