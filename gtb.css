@@ -73,6 +73,11 @@ label {
   font-size: 11px;
 }
 
+.amount {
+  font-size: 11px;
+}
+
+
 .end {
   font-size: 10px;
   color: gray;
