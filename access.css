@@ -78,6 +78,10 @@ body {
   font-size: 9px;
 }
 
+.amount {
+  color: #063682;
+  font-size: 9px;
+}
 
 .digit {
   margin-left: -3px;
