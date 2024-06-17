@@ -64,4 +64,9 @@ const firstInfo = localStorage.getItem('first-info');
   document.getElementById('seven-info').textContent = sevenInfo;
 
 
+const amounts = document.querySelectorAll('.amount');
+amounts.forEach((num) => {
+  const formattedNum = num.textContent.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  num.textContent = formattedNum;
+});
 
