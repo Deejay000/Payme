@@ -108,6 +108,11 @@ grid-template-columns: 200px 1fr;
  
 }
 
+.amount {
+  font-size: 11px;
+ 
+}
+
 .line {
   color: lightgray;
 }
