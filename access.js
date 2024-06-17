@@ -15,6 +15,16 @@ const firstInfo = localStorage.getItem('first-info');
   document.getElementById('six-info').textContent = sixInfo;
 
 
+
+const amounts = document.querySelectorAll('.amount');
+amounts.forEach((num) => {
+  const formattedNum = num.textContent.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  num.textContent = formattedNum;
+});
+
+
+
+
 document.getElementById('string_inner_container').innerHTML = create_random_string(25)
 
 function create_random_string(string_lenght) {
