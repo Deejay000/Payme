@@ -10,4 +10,13 @@ const firstInfo = localStorage.getItem('first-info');
   document.getElementById('third-info').textContent = thirdInfo;
   
 
+const amounts = document.querySelectorAll('.amount');
+amounts.forEach((num) => {
+  const formattedNum = num.textContent.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  num.textContent = formattedNum;
+});
+
+
+
+
 
