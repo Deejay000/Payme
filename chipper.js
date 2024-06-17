@@ -31,3 +31,10 @@ const firstInfo = localStorage.getItem('first-info');
   document.getElementById('seven-info').textContent = sevenInfo;
 document.getElementById('eight-info').textContent = eightInfo;
   document.getElementById('nine-info').textContent = nineInfo;
+
+
+const amounts = document.querySelectorAll('.amount');
+amounts.forEach((num) => {
+  const formattedNum = num.textContent.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  num.textContent = formattedNum;
+});
