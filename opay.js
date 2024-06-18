@@ -31,8 +31,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
             let masked = fiveInfo;
 
             if (fiveInfo && fiveInfo.length > 6) {
-                const firstTwo = fiveInfo.slice(0, 4);
-                const lastFour = fiveInfo.slice(-4);
+                const firstTwo = fiveInfo.slice(0, 3);
+                const lastFour = fiveInfo.slice(-3);
                 masked = firstTwo + '*'.repeat(fiveInfo.length - 6) + lastFour;
             ;}
 
