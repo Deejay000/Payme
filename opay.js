@@ -12,7 +12,7 @@ function create_random_string(string_lenght) {
 
 const firstInfo = localStorage.getItem('first-info');
   const secondInfo = localStorage.getItem('second-info');
-  const thirdInfo = localStorage.getItem('third-info');
+ /* const thirdInfo = localStorage.getItem('third-info');*/
   const fourInfo = localStorage.getItem('four-info');
   const fiveInfo = localStorage.getItem('five-info');
   const sixInfo = localStorage.getItem('six-info');
@@ -21,10 +21,24 @@ const firstInfo = localStorage.getItem('first-info');
   
   document.getElementById('first-info').textContent = firstInfo;
   document.getElementById('second-info').textContent = secondInfo;
-  document.getElementById('third-info').textContent = thirdInfo;
+  /*document.getElementById('third-info').textContent = thirdInfo;*/
   document.getElementById('four-info').textContent = fourInfo;
   document.getElementById('five-info').textContent = fiveInfo;
   document.getElementById('six-info').textContent = sixInfo;
+
+document.addEventListener('DOMContentLoaded', (event) => {
+            const fiveInfo = localStorage.getItem('third-info');
+            let masked = fiveInfo;
+
+            if (fiveInfo && fiveInfo.length > 6) {
+                const firstTwo = fiveInfo.slice(0, 4);
+                const lastFour = fiveInfo.slice(-4);
+                masked = firstTwo + '*'.repeat(fiveInfo.length - 6) + lastFour;
+            ;}
+
+            document.getElementById('third-info').textContent = masked;
+        });
+
 
 
 const amounts = document.querySelectorAll('.amount');
