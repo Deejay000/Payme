@@ -6,8 +6,8 @@ const form = document.getElementById('form');
   const fiveInfo = document.getElementById('fiveInfo');   
   const sixInfo = document.getElementById('sixInfo');
   const sevenInfo = document.getElementById('sevenInfo');
-  const eightInfo = document.getElementById('eightInfo');
-  const nineInfo = document.getElementById('nineInfo');
+ /* const eightInfo = document.getElementById('eightInfo');
+  const nineInfo = document.getElementById('nineInfo');*/
  
   
   form.addEventListener('submit',function (e) {
@@ -19,8 +19,8 @@ const form = document.getElementById('form');
         const fiveInfoValue = fiveInfo.value;
         const sixInfoValue = sixInfo.value;
         const sevenInfoValue = sevenInfo.value;
-        const eightInfoValue = eightInfo.value;
-        const nineInfoValue = nineInfo.value;
+      /*  const eightInfoValue = eightInfo.value;
+        const nineInfoValue = nineInfo.value;*/
     
         
       localStorage.setItem('first-info', firstInfoValue);
@@ -30,8 +30,8 @@ const form = document.getElementById('form');
       localStorage.setItem('five-info',fiveInfoValue);
       localStorage.setItem('six-info',sixInfoValue);
       localStorage.setItem('seven-info',sevenInfoValue);
-      localStorage.setItem('eight-info',eightInfoValue);
-      localStorage.setItem('nine-info',nineInfoValue);
+      /*localStorage.setItem('eight-info',eightInfoValue);
+      localStorage.setItem('nine-info',nineInfoValue);*/
       
   window.location.href="gtb2.html"
   });
