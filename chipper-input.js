@@ -5,8 +5,8 @@ const form = document.getElementById('form');
   const fourInfo = document.getElementById('fourInfo');
   const fiveInfo = document.getElementById('fiveInfo');   
   const sixInfo = document.getElementById('sixInfo');
-  const sevenInfo = /*document.getElementById('sevenInfo');
-  const eightInfo = document.getElementById('eightInfo');   
+  const sevenInfo = document.getElementById('sevenInfo');
+  /*const eightInfo = document.getElementById('eightInfo');   
   const nineInfo = document.getElementById('nineInfo');*/
  
   
