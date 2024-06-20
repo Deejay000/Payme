@@ -62,6 +62,17 @@ img {
 }
 }
 
+
+.tran {
+  font-size: 26px;
+}
+
+@media(max-width: 360px) {
+  .tran {
+  font-size: 16px;
+}
+}
+
 .amount-cover {
   color: #33B384;
   font-weight: bolder;
