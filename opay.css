@@ -15,7 +15,7 @@ body {
   position: relative;
 }
 
-@media(max-width: 360px;){
+@media(max-width: 360px){
   .receipt-body {
     width: 420px;
 }
