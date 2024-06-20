@@ -43,7 +43,7 @@ img {
 }
 
 .amount-cover {
-  color: #37D39A;
+  color: #33B384;
   font-weight: bolder;
   font-size: 24px;
   margin-top: 30px;
@@ -81,7 +81,7 @@ img {
 
 .grid {
   display: grid;
-  grid-template-columns: 170px 1fr;
+  grid-template-columns: 220px 1fr;
   margin: 25px 0px;
 }
 
@@ -136,7 +136,7 @@ img {
 
 .grid-end {
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 220px 1fr;
 }
 
 .end {
@@ -146,7 +146,7 @@ img {
 }
 
 .ng {
-  color: #37D39A;
+  color: #33B384;
   font-weight: bold;
 }
 
