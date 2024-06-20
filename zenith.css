@@ -20,7 +20,7 @@ body {
   padding: 10px;
   display: flex;
   flex: 1 1;
-  column-gap: 170px;
+  justify-content: space-between;
   background-color: red;
   position: absolute;
   top: 0px;
