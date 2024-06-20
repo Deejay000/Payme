@@ -5,7 +5,7 @@ body {
 }
 
 .receipt-body {
-  width: 820px;
+  width: 1120px;
   margin-top: 70px;
   margin-left: auto;
   margin-right: auto;
@@ -34,7 +34,7 @@ body {
 .container {
   padding: 50px 25px 50px 20px;
   margin-top: 80px;
-  width: 780px;
+  width: 1020px;
   display: block;
   margin-left: auto;
   margin-right: auto;
