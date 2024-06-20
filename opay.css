@@ -92,9 +92,8 @@ img {
 }
 
 .grid {
-  display: flex;
-  flex: 1 1;
-  justify-content: space-between;
+  display: grid;
+  grid-template-column: 1fr 1fr;
   margin: 25px 0px;
 }
 
