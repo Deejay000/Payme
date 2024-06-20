@@ -46,6 +46,7 @@ body {
 @media (max-width: 360px){
 .container{
   width: 580px;
+  padding: 50px 25px 50px 20px;
 }
 }
 
