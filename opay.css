@@ -92,7 +92,7 @@ img {
 }
 
 .date {
-  font-size: 14px;
+  font-size: 15px;
   padding: 5px;
   color: gray;
 }
@@ -118,27 +118,27 @@ img {
 .left {
  /* font-weight: bold;*/
   color: gray;
-  padding: 20px;
+  padding: 16px;
   
 }
 
 .right {
   color: black;
   text-align: right;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 500px;
 }
 
 .right6 {
   color: gray;
   text-align: right;
-  font-size: 20px;
+  font-size: 17px;
   padding-top: 10px;
 }
 
 .ms {
   text-align: right;
-  margin-top: 20px;
+  margin-top: 17px;
   color: black;
   font-size: 20px;
 }
@@ -148,7 +148,7 @@ img {
 }
 
 .name {
-  font-size: 20px;
+  font-size: 17px;
   color: black;
   padding: 10px 0px 20px 0px;
 }
@@ -156,7 +156,7 @@ img {
 .left2 {
   padding: 10px;
   color: gray;
-  font-size: 20px; 
+  font-size: 16px; 
 }
 
 .gleft {
