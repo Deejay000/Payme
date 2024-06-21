@@ -160,7 +160,7 @@ img {
 }
 
 .gleft {
-  font-weight: bolder;
+ /* font-weight: bolder;*/
   color: gray;
   font-size: 12px;
 }
