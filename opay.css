@@ -118,7 +118,7 @@ img {
 .left {
  /* font-weight: bold;*/
   color: gray;
-  padding: 15px;
+  padding: 20px;
   
 }
 
@@ -156,6 +156,7 @@ img {
 .left2 {
   padding: 10px;
   color: gray;
+  font-size: 20px; 
 }
 
 .gleft {
