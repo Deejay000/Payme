@@ -139,8 +139,8 @@ img {
 .ms {
   text-align: right;
   margin-top: 20px;
-  font-weight: bold;
-  color: gray;
+  color: black;
+  font-size: 18px;
 }
 
 .sright {
@@ -148,8 +148,7 @@ img {
 }
 
 .name {
-  font-weight: 500px;
-  font-size: 16px;
+  font-size: 18px;
   color: black;
   padding: 10px 0px 20px 0px;
 }
