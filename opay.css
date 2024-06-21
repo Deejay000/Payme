@@ -65,6 +65,7 @@ img {
 
 .tran {
   font-size: 26px;
+  font-weight: 500px;
 }
 
 @media(max-width: 360px) {
