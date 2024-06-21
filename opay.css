@@ -62,13 +62,13 @@ img {
 
 
 .tran {
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 500px;
 }
 
 @media(max-width: 360px) {
   .tran {
-  font-size: 16px;
+  font-size: 19px;
 }
 }
 
@@ -125,14 +125,14 @@ img {
 .right {
   color: black;
   text-align: right;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 500px;
 }
 
 .right6 {
   color: gray;
   text-align: right;
-  font-size: 15px;
+  font-size: 20px;
   padding-top: 10px;
 }
 
@@ -140,7 +140,7 @@ img {
   text-align: right;
   margin-top: 20px;
   color: black;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .sright {
@@ -148,7 +148,7 @@ img {
 }
 
 .name {
-  font-size: 18px;
+  font-size: 20px;
   color: black;
   padding: 10px 0px 20px 0px;
 }
