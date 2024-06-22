@@ -5,7 +5,7 @@ body {
 }
 
 .receipt-body {
-  width: 550px;
+  width: 1200px;
   margin-top: 70px;
   margin-left: auto;
   margin-right: auto;
@@ -15,12 +15,12 @@ body {
   position: relative;
 }
 
-/*@media(max-width: 360px){
+@media(max-width: 360px){
   .receipt-body {
-    width: 620px;
+    width: 500px;
 }
 }
-*/
+
 
 .top-grid {
   display: flex;
