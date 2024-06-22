@@ -66,6 +66,11 @@ img {
 }
 }
 
+@media (max-width: 808px) {
+  img {
+    width: 90px;
+  }
+}
 
 .tran {
   font-size: 30px;
@@ -76,6 +81,12 @@ img {
   .tran {
   font-size: 19px;
 }
+}
+
+@media (max-width: 808px) {
+  .tran {
+    font-size: 20px;
+  }
 }
 
 .amount-cover {
