@@ -47,9 +47,9 @@ body {
 }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 808px) {
   .container {
-    max-width: 320px;
+    width: 320px;
   }
 }
 
