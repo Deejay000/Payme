@@ -155,7 +155,6 @@ img {
 
 .ms {
   text-align: right;
-  margin-top: 17px;
   color: black;
   font-size: 17px;
 }
@@ -169,6 +168,7 @@ img {
   font-size: 17px;
   color: black;
   padding: 10px 0px 20px 0px;
+  font-weight: 500px;
 }
 
 .left2 {
