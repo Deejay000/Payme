@@ -13,112 +13,146 @@
     <script src = "https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js">
     </script>
 </head>
-<body onload = "autoClick();">
-  <div class="receipt-body" id = "htmlContent">
+<body>
+<div class="page" onload = "autoClick();">
+  <section id="htmlContent">
     <div class="top">
-      <span class="arrow-left">
-&leftarrow;
-</span>Transaction Receipt 
+      <i class="bi bi-arrow-left"></i> <b class="tr">
+        Transaction receipt 
+      </b>
     </div>
-    <div class="container">
-      <img src="images/palmpay2.png">
-      <center class="amount-cover">
-        &#8358;<span class="amount" id="first-info">
-          1,000
-        </span>
-        <span class="digit">
-          .00
-         </span>
-      </center>
+    <div class="receipt">
+      <div>
+        <img src="images/palmpay2.png">
+      </div>
+      <div class="amount-cover">
+         &#8358;<span class="amount" id="first-info">
+           1,000
+         </span>.00
+      </div>
       <center class="st">
         Successful Transaction
       </center>
       <center class="date">
-        <span id="month">
-          
+       <span id="month">
+
         </span>
         <span id="date">
-          
+
         </span>
         ,
         <span id="year">
-          
+
         </span>
         <span id="time">
-          
+
         </span>
       </center>
       <center class="line">
-        -----------------------------------------------------
+        -----------------------------------
       </center>
       <div class="grid">
-        <div class="left">
-          Recipient:
+        <div>
+          <b class="left">
+            Recipient:
+          </b>
         </div>
         <div class="right">
-          <div class="name" id="four-info">
-            Dee Jay 
+          <div>
+            <b class="name" id="four-info">
+              Dee Jay 
+            </b>
           </div>
-          <span class="sright" id="six-info">
-            Access Bank Plc
-          </span>|<span class="sright" id="five-info">
-            1234567890
+          <div class="right-bottom">
+            <span class="bank" id="six-info">
+             Opay
+           </span>|<span class="acct-num" id="five-info">
+            0000000000
           </span>
-        </div>
-      </div>
-      <center class="line">
-        -----------------------------------------------------
-      </center>
-      <div class="grid">
-        <div class="left">
-          Sender:
-        </div>
-        <div class="right">
-          <div class="name" id="second-info">
-            Dee Jay 
           </div>
-          <span class="sright">
-            Palmpay 
-          </span>|<span class="sright" id="third-info">
-            1234567890
-          </span>
-        </div>
-      </div>
-       <center class="line">
-        -----------------------------------------------------
-      </center>
-      <div class="left2">
-        Transaction info:
-      </div>
-      <div class="grid-end">
-        <div class="gleft">
-          Transaction Type
-        </div>
-        <div class="right">
-          Money transfer
-        </div>
-        <div class="gleft">
-          Transaction ID
-        </div>
-        <div class="right" id="string_inner_container">
-          031kz12r24102
         </div>
       </div>
             <center class="line">
-        -----------------------------------------------------
+        -----------------------------------
+      </center>
+       <div class="grid">
+        <div>
+          <b class="left">
+            Sender:
+          </b>
+        </div>
+        <div class="right">
+          <div>
+            <b class="name" id="second-info">
+              Dee Jay 
+            </b>
+          </div>
+          <div class="right-bottom">
+            <span class="bank">
+             Opay
+           </span>|<span class="acct-num" id="third-info">
+            0000000000
+          </span>
+          </div>
+        </div>
+      </div>
+      <center class="line">
+        -----------------------------------
+      </center>
+      <div class="left">
+        Transaction info:
+      </div>
+      <div class="grid2">
+        <div class="left2">
+          Transaction Type 
+        </div>
+        <div class="right">
+          <div>
+            <b class="name2">
+              Money Transfer
+            </b>
+          </div>
+        </div>
+      </div>
+      <div class="grid2">
+        <div class="left2">
+          Transaction ID
+        </div>
+        <div class="right">
+          <div>
+            <b class="name2" id="string_inner_container">
+              000gtudr0000
+            </b>
+          </div>
+        </div>
+      </div>
+      <div class="grid2">
+        <div class="left2">
+          Session ID
+        </div>
+        <div class="right">
+          <div>
+            <b class="name2">
+             653367754
+            </b>
+          </div>
+        </div>
+      </div>
+      <center class="line">
+        -----------------------------------
       </center>
       <div class="end">
-        90+ Free Bank Transfer Every Month!
+        Enjoy Seamless and Unlimited Free Transfers to All
         <br>
-        Get cashbacks in Airtime & data top-up!
-        <br>
-        Up to 150k Naira credit lines & 16 days interest free!
-        <br>
-        Enjoy all at PalmPay!
+        Banks.
       </div>
+      
+      
+      
     </div>
-  </div>
-  <center>
+  </section>
+  
+    <center>
       <a class="button" id="download">
    Download receipt 
   </a>
@@ -145,5 +179,6 @@
         });
       });
     </script>
+</div>
 </body>
 </html>
