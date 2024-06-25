@@ -1,144 +1,139 @@
-body {
-  margin: 0px;
-  background-color: lightgray;
-  font-family: sans-serif;
-}
+      body {
+        margin: 0px;
+        background-color: lightgray;
+      }
+      
+      .page {
+        
+      }
+      
+      section {
+        width: 390px;
+        margin: 30px auto 70px auto;
+       padding-bottom: 20px;
+        display: block;
+        background-color: #F0F0F7;
+      }
+      
+      .top {
+        padding: 15px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+      }
+      
+      .bi-arrow-left {
+        font-size: 20px;
+      }
+      
+      .tr {
+        font-size: 17px;
+        font-weight: 500;
+        margin: 0px 10px;
+      }
+      
+      .receipt {
+        padding: 20px;
+        margin: 30px auto 70px auto;
+        background-image: url('images/palmpay-bg.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 320px;
+        display: block;
+        border-radius: 10px;
+      }
+      
+      img {
+        width: 100px;
+      }
+      
+      .amount-cover {
+        text-align: center;
+        font-size: 25px;
+        color: #703DE3;
+        font-weight: bold;
+        margin: 20px 0px 0px 0px;
+      }
+      
+      .amount {
+        margin: 0px -1px 0px 2px;
+      }
+      
+      .st {
+        font-size: 15px;
+        color: #3D354D;
+      }
+      
+      .date {
+        font-size: 11px;
+        color: gray;
+        margin: 10px 0px;
+      }
+      
+      .line {
+        letter-spacing: 4px;
+        color: lightgray;
+        margin: 13px 0px;
+      }
+      
+      .grid {
+        display: grid;
+        grid-template-columns: 110px 1fr;
+      }
+      .grid2 {
+        display: grid;
+        grid-template-columns: 110px 1fr;
+       margin: 12px 0px;
+      }
+      .left {
+        color: #3D354D;
+        font-weight: 500;
+        font-size: 15px;
+      }
+      
+      .left2 {
+        color: gray;
+        font-size: 11px;
+      }
+      
+      .right {
+        text-align: right;
+      }
+      
+      .right-bottom {
+        margin: 12px 0px;
+        font-size: 12px;
+      }
+      
+      .name {
+        font-size: 16px;
+        font-weight: 500;
+      }
+      
+      .name2 {
+        font-size: 11px;
+        font-weight: 500;
+      }
+      
+      .end {
+        color: gray;
+        font-size: 11px;
+      }
+      
+      .button {
+        margin-top: 50px;
+        padding: 15px 10px;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        background-color: blue;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+      }
 
-.receipt-body {
-  width: 480px;
-  margin-top: 70px;
-  margin-left: auto;
-  margin-right: auto;
-  border: 2px solid lightgray;
-  padding-bottom: 80px;
-  background-color: #F0F0F0;
-  position: relative;
-}
-
-.top {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  background-color: white;
-  font-weight: bolder;
-  font-size: 16px;
-  padding: 15px;
-  margin-bottom: 20px;
-}
-
-.container {
-  padding: 20px;
-  background-image: url("images/palmpay-back.png");
-  background-size: cover;
-  margin-top: 120px;
-  width: 400px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-img {
-  width: 100px;
-  margin-left: 20px;
-}
-
-.amount-cover {
-  color: #6F09EC;
-  font-weight: bolder;
-  font-size: 28px;
-  margin-top: 10px;
-}
-
-.amount {
-  margin-right: -6px;
-}
-
-.digit {
-  margin-left: -1px;
-}
-
-.st {
-  font-size: 15px;
-}
-
-.date {
-  font-size: 13px;
-  padding: 5px;
-  color: gray;
-}
-
-.line {
-  color: lightgray;
-  letter-spacing: 3px;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 170px 1fr;
-}
-
-.left {
-  font-weight: bold;
-}
-
-.right {
-  color: gray;
-  text-align: right;
-  font-size: 13px;
-}
-
-.name {
-  font-weight: bolder;
-  font-size: 16px;
-  color: black;
-  padding: 10px 0px 20px 0px;
-}
-
-.left2 {
-  font-weight: bold;
-  padding: 10px 0px;
-}
-
-.gleft {
-  font-weight: bolder;
-  color: gray;
-  font-size: 12px;
-}
-
-.grid-end {
-  display: grid;
-  grid-template-columns: 140px 1fr;
-}
-
-.end {
-  font-size: 12px;
-  color: gray;
-  margin-top: 30px;
-}
-
-.button {
-  margin-top: 50px;
-  padding: 15px 10px;
-  border: none;
-  border-radius: 10px;
-  color: white;
-  background-color: blue;
-  font-weight: bold;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.button:active {
-  background-color: white;
-  color: blue;
-  border: 2px solid blue;
-}
-  
-.arrow-left {
-  font-size: 30px;
-  font-weight: bolder;
-}
-
+      .button:active {
+        background-color: white;
+        color: blue;
+        border: 2px solid blue;
+      }
