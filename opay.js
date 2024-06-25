@@ -1,4 +1,4 @@
-document.getElementById('string_inner_container').innerHTML = create_random_string(25)
+document.getElementById('string_inner_container').innerHTML = create_random_string(18)
 
 function create_random_string(string_lenght) {
   var random_string = '';
