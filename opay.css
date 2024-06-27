@@ -19,6 +19,13 @@ body {
 }
 }
 
+@media (max-width: 808px) {
+  .receipt-body {
+    width: 520px;
+  }
+}
+
+
 
 .top-grid {
   display: flex;
