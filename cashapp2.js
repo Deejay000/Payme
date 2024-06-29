@@ -47,7 +47,7 @@ document.getElementById('time').textContent = `${current_hour}:${current_minute}
 
 document.addEventListener("DOMContentLoaded", () => {
     // Array of predefined colors
-    const colors = ['darkpink', '#33FF57', 'blue', '#FF33A1', '#07D5FF'];
+    const colors = ['darkpink', 'blue', '#FF33A1', '#07D5FF'];
 
     // Function to get a random color from the array
     function getRandomColor() {
